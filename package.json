@@ -1,0 +1,23 @@
+{
+    "name": "old-school-notes-app",
+    "version": "1.0.0",
+    "description": "A simple, old-school desktop notes app for Mac computers.",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "keywords": [
+        "notes",
+        "desktop",
+        "app",
+        "mac",
+        "old-school"
+    ],
+    "author": "steve",
+    "license": "ISC",
+    "dependencies": {
+        "electron": "^13.6.9",
+        "fs": "0.0.1-security",
+        "path": "^0.12.7"
+    }
+}

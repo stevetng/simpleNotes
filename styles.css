@@ -1,0 +1,48 @@
+body {
+    background-color: #C0C0C0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#app {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #808080;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+#notes {
+    background-color: #F8F8F8;
+    border: 1px solid #808080;
+    padding: 20px;
+    border-radius: 5px;
+}
